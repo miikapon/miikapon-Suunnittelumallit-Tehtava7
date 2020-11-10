@@ -4,7 +4,7 @@ package state;
 public class Venusaur implements Pokemon {
   @Override
   public Pokemon evolve() {
-    System.out.println("Evolved into Venusaur!");
+    System.out.println("Already reached final evolution");
     return new Venusaur();
   }
 
